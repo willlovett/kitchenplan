@@ -2,19 +2,10 @@ groups:
     - developer
 recipes:
     global:
-        - applications::bash-completion
-        - applications::omnigraffle
-        - applications::omnifocus
-        - applications::moom
-        - applications::iterm2
-        - applications::gimp
-        - applications::rftg
-        - applications::spotify
-        - applications::xbmc
-        - applications::coconutbattery
         - dotfiles::bash_it
         - dotfiles::inputrc
     mac_os_x:
+        - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - osxdefaults::set_computer_name
 attributes:
     git:
@@ -22,3 +13,13 @@ attributes:
         email: willlovett@gmail.com
     osxdefaults:
         computername: iago
+    homebrewalt:
+	cask_apps:
+            - coconutbattery
+            - gimp
+            - moom
+            - omnifocus
+            - omnigraffle
+            - rftg
+            - spotify
+            - xbmc

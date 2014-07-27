@@ -1,25 +1,56 @@
 recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
     global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
         - applications::create_var_chef_cache
-        - applications::google-chrome
-        - applications::firefox
-        - applications::java
-        - applications::vlc
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
+        - dotfiles::gitconfig
+        - dotfiles::vim
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
-        - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
-        - applications::adobe_reader
+        - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
         - osxdefaults::add_note_to_loginscreen
-        - osxdefaults::disable_auto-correct
-        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
-        - osxdefaults::finder_small_sidebar_icon_size
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::disable_auto-correct
+        - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
         - osxdefaults::disable_resume_system-wide
+        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
+        - osxdefaults::finder_small_sidebar_icon_size
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
-        - applications::bash
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+        - osxdefaults::set_terminal_profile
 attributes:
     osxdefaults:
         loginmessage: Property of Will Lovett.  (UK) 07590602367.  willlovett@gmail.com
+    homebrewalt:
+	apps:
+	    - bash
+	    - bash-completion
+	    - git
+            - gnu-tar
+            - gnu-which
+            - pwgen
+            - watch
+            - wget
+	cask_apps:
+	    - adobe-reader
+	    - firefox
+	    - google-chrome
+	    - java
+	    - vlc
+            - adium
+            - dropbox
+            - emacs
+            - git-flow
+            - htop
+            - iterm2
+            - libreoffice
+            - limechat
+            - pv
+            - skype
+            - sourcetree
+            - ssh_config
+            - sublime_text_3
+            - unrarx
+            - virtualbox
+            - xchat
