@@ -8,9 +8,6 @@ recipes:
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - osxdefaults::set_computer_name
 attributes:
-    git:
-        name: Will Lovett
-        email: willlovett@gmail.com
     osxdefaults:
         computername: iago
     homebrewalt:
