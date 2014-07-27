@@ -14,7 +14,7 @@ attributes:
     osxdefaults:
         computername: iago
     homebrewalt:
-	cask_apps:
+        cask_apps:
             - coconutbattery
             - gimp
             - moom

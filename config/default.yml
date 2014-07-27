@@ -23,21 +23,21 @@ attributes:
     osxdefaults:
         loginmessage: Property of Will Lovett.  (UK) 07590602367.  willlovett@gmail.com
     homebrewalt:
-	apps:
-	    - bash
-	    - bash-completion
-	    - git
+        apps:
+            - bash
+            - bash-completion
+            - git
             - gnu-tar
             - gnu-which
             - pwgen
             - watch
             - wget
-	cask_apps:
-	    - adobe-reader
-	    - firefox
-	    - google-chrome
-	    - java
-	    - vlc
+        cask_apps:
+            - adobe-reader
+            - firefox
+            - google-chrome
+            - java
+            - vlc
             - adium
             - dropbox
             - emacs
