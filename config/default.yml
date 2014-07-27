@@ -32,6 +32,9 @@ attributes:
             - pwgen
             - watch
             - wget
+            - git-flow
+            - htop-osx
+            - pv
         cask_apps:
             - adobe-reader
             - firefox
@@ -41,15 +44,10 @@ attributes:
             - adium
             - dropbox
             - emacs
-            - git-flow
-            - htop
             - iterm2
-            - libreoffice
             - limechat
-            - pv
             - skype
             - sourcetree
-            - ssh_config
             - sublime_text_3
             - unrarx
             - virtualbox
