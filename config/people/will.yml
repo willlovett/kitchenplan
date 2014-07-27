@@ -1,5 +1,4 @@
 groups:
-    - developer
 recipes:
     global:
         - dotfiles::bash_it
