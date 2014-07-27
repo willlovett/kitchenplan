@@ -27,28 +27,28 @@ attributes:
             - bash
             - bash-completion
             - git
+            - git-flow
             - gnu-tar
             - gnu-which
+            - htop-osx
+            - pv
             - pwgen
             - watch
             - wget
-            - git-flow
-            - htop-osx
-            - pv
+            - xchat
         cask_apps:
-            - adobe-reader
-            - firefox
-            - google-chrome
-            - java
-            - vlc
             - adium
+            - adobe-reader
             - dropbox
             - emacs
+            - firefox
+            - google-chrome
             - iterm2
+            - java
             - limechat
             - skype
             - sourcetree
             - sublime-text3
             - unrarx
             - virtualbox
-            - xchat
+            - vlc
