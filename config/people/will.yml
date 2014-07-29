@@ -27,3 +27,6 @@ attributes:
             - rftg
             - spotify
             - xbmc
+    bash_it:
+        enabled_plugins:
+            aliases: emacs

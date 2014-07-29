@@ -39,6 +39,7 @@ attributes:
         cask_apps:
             - adium
             - adobe-reader
+            - chefdk
             - dropbox
             - emacs
             - firefox
