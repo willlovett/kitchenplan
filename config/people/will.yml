@@ -6,6 +6,7 @@ recipes:
     mac_os_x:
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - osxdefaults::set_computer_name
+        - custom-applications::xdot
 attributes:
     git:
         name: Will Lovett
@@ -29,4 +30,5 @@ attributes:
             - xbmc
     bash_it:
         enabled_plugins:
-            aliases: emacs
+            aliases:
+                - emacs
