@@ -9,4 +9,4 @@ cookbook "drivers",               :github => "kitchenplan/chef-drivers",        
 cookbook "sudoalt",               :github => "kitchenplan/chef-sudoalt",        :ref => "v2.4"
 cookbook "dmg",                   :github => "opscode-cookbooks/dmg",           :ref => "v2.1.4"
 cookbook "composer",              :github => "kitchenplan/chef-composer",       :ref => "v1.0"
-cookbook "custom-applications",   :github => "willlovett/chef-applications",   :ref => "v2.0"
+cookbook "custom-applications",   :github => "willlovett/chef-applications",    :ref => "v2.0.5"
