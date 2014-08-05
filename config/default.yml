@@ -26,6 +26,7 @@ attributes:
         apps:
             - bash
             - bash-completion
+	    - cmake
             - git
             - git-flow
             - gnu-tar
@@ -45,6 +46,7 @@ attributes:
             - dropbox
             - emacs
             - firefox
+	    - flash-player
             - google-chrome
             - iterm2
             - java
