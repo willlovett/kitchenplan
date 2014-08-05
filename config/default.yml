@@ -31,10 +31,12 @@ attributes:
             - gnu-tar
             - gnu-which
             - htop-osx
+	    - ninja
             - pv
             - pwgen
             - watch
             - wget
+            - xquartz # note - must be installed before xchat
             - xchat
         cask_apps:
             - adium

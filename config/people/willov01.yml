@@ -28,6 +28,7 @@ attributes:
             - rftg
             - spotify
             - xbmc
+            - xmarks-safari
     bash_it:
         enabled_plugins:
             aliases:
