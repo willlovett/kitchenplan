@@ -55,5 +55,6 @@ attributes:
             - sourcetree
             - sublime-text3
             - unrarx
+	    - vagrant
             - virtualbox
             - vlc

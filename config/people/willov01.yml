@@ -10,7 +10,7 @@ recipes:
 attributes:
     git:
         name: Will Lovett
-        email: willlovett@gmail.com
+        email: will.lovett@arm.com
         aliases:
             co: checkout
             ci: commit
@@ -19,6 +19,8 @@ attributes:
     osxdefaults:
         computername: e105278-mac
     homebrewalt:
+        apps:
+	    - ispell
         cask_apps:
             - coconutbattery
             - gimp
